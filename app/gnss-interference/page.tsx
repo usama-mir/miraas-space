@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "GNSS Interference – VeridianNav",
+  title: "GNSS Interference – MIRAAS Space",
   description:
     "GNSS interference is growing. Onboard alarms aren't enough. Learn about the accelerating threat to maritime positioning.",
 };

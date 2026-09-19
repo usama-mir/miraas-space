@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Product – VeridianNav",
+  title: "Product – MIRAAS Space",
   description:
     "An independent integrity layer on top of what you already have. Software-only GNSS position validation.",
 };
@@ -79,7 +79,7 @@ export default function ProductPage() {
             ON TOP OF WHAT YOU ALREADY HAVE.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400">
-            VeridianNav is a software-only platform. It integrates with existing
+            MIRAAS Space is a software-only platform. It integrates with existing
             vessel infrastructure, fuses independent data sources, and produces a
             continuously updated trust score with supporting evidence and alerts.
           </p>
@@ -116,7 +116,7 @@ export default function ProductPage() {
               <div className="flex items-center justify-center">
                 <div className="rounded-xl border border-cyan-400/30 bg-navy-800/80 px-8 py-6 text-center">
                   <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
-                    VeridianNav Engine
+                    MIRAAS Space Engine
                   </p>
                   <p className="mt-2 text-sm text-gray-400">
                     Cross-validation

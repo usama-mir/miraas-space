@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Team – VeridianNav",
+  title: "Team – MIRAAS Space",
   description:
-    "Meet the founders behind VeridianNav — building GNSS integrity intelligence for maritime operations.",
+    "Meet the founders behind MIRAAS Space — building GNSS integrity intelligence for maritime operations.",
 };
 
 /*
@@ -53,7 +53,7 @@ export default function TeamPage() {
           <h1 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
             THE PEOPLE BEHIND
             <br />
-            VERIDIANNAV.
+            MIRAAS SPACE.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400">
             We&apos;re a team of maritime technologists, signal processing

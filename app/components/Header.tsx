@@ -35,7 +35,7 @@ export default function Header() {
             </svg>
           </div>
           <span className="text-lg font-bold tracking-wide text-white">
-            VERIDIAN<span className="text-cyan-400">NAV</span>
+            MIRAAS<span className="text-cyan-400"> Space</span>
           </span>
         </Link>
 

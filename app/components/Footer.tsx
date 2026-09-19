@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div>
             <span className="text-lg font-bold tracking-wide text-white">
-              VERIDIAN<span className="text-cyan-400">NAV</span>
+              MIRAAS<span className="text-cyan-400"> Space</span>
             </span>
             <p className="mt-1 text-xs text-gray-500">
               GNSS Integrity Intelligence · Maritime Operations
@@ -36,7 +36,7 @@ export default function Footer() {
           </nav>
 
           <p className="text-xs text-gray-600">
-            &copy; {new Date().getFullYear()} VeridianNav Ltd.
+            &copy; {new Date().getFullYear()} MIRAAS Space Ltd.
           </p>
         </div>
       </div>

@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VeridianNav – GNSS Integrity Intelligence for Maritime Operations",
+  title: "MIRAAS Space – GNSS Integrity Intelligence for Maritime Operations",
   description:
-    "Know when you can trust your vessel position. VeridianNav continuously validates position data against independent sources.",
+    "Know when you can trust your vessel position. MIRAAS Space continuously validates position data against independent sources.",
 };
 
 export default function RootLayout({
