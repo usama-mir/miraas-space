@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Product – MIRAAS Space",
@@ -188,7 +187,6 @@ export default function ProductPage() {
 
       {/* ─── CTA ─── */}
       <section
-        id="pilot"
         className="bg-navy-950 px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8"
       >
         <div className="mx-auto max-w-2xl">
@@ -198,21 +196,17 @@ export default function ProductPage() {
             YOU CAN TRUST?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-gray-400">
-            We&apos;re running pilots with maritime operators now. Pilots take
-            two to four weeks, use your existing data, and are scoped around your
-            operational context.
+            We&apos;re working with maritime operators to validate position
+            integrity in real operational environments. Reach out to learn more.
           </p>
           <div className="mt-10">
-            <Link
-              href="/product#pilot"
+            <a
+              href="mailto:info@miraastech.com"
               className="inline-block rounded-full bg-cyan-400 px-10 py-4 text-base font-semibold text-navy-950 transition-colors hover:bg-cyan-300"
             >
-              Request a Pilot
-            </Link>
+              info@miraastech.com
+            </a>
           </div>
-          <p className="mt-4 font-mono text-xs tracking-wider text-gray-600">
-            No hardware. No long procurement. Live within two weeks.
-          </p>
         </div>
       </section>
     </main>

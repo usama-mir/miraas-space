@@ -33,12 +33,12 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <Link
-                  href="/product#pilot"
+                <a
+                  href="mailto:info@miraastech.com"
                   className="rounded-full bg-cyan-400 px-7 py-3 text-sm font-semibold text-navy-950 transition-colors hover:bg-cyan-300"
                 >
-                  Request a Pilot
-                </Link>
+                  Get in Touch
+                </a>
                 <Link
                   href="/product"
                   className="group flex items-center gap-2 rounded-full border border-navy-600 px-7 py-3 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-400 hover:text-white"

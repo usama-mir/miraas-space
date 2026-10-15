@@ -146,12 +146,12 @@ export default function GnssInterferencePage() {
             >
               See our solution
             </Link>
-            <Link
-              href="/product#pilot"
+            <a
+              href="mailto:info@miraastech.com"
               className="rounded-full border border-navy-600 px-7 py-3 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-400 hover:text-white"
             >
-              Request a Pilot
-            </Link>
+              Contact Us
+            </a>
           </div>
         </div>
       </section>
