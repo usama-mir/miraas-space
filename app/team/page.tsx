@@ -2,42 +2,26 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Team – VeridianNav",
+  title: "Team – MIRAAS Space",
   description:
-    "Meet the founders behind VeridianNav — building GNSS integrity intelligence for maritime operations.",
+    "Meet the founders behind MIRAAS Space — building GNSS integrity intelligence for maritime operations.",
 };
 
-/*
- * ─────────────────────────────────────────────
- *  REPLACE THE DETAILS BELOW WITH REAL DATA
- * ─────────────────────────────────────────────
- *  • image  → swap the SVG path for a real photo (e.g. "/founders/jane.jpg")
- *  • name   → founder's full name
- *  • role   → title / function
- *  • bio    → short paragraph about the person
- *  • linkedin → full URL (or remove the field to hide the link)
- */
 const founders = [
   {
-    image: "/founder-1.svg",
-    name: "Founder Name One",
-    role: "CEO & Co-Founder",
-    bio: "Brief biography goes here. Describe background, expertise in maritime or GNSS technology, and what drives them to solve this problem.",
-    linkedin: "https://linkedin.com/in/placeholder",
+    image: "/Mazdak.jpg",
+    name: "Mazdak Rahimzadeh",
+    role: "CEO",
   },
   {
-    image: "/founder-2.svg",
-    name: "Founder Name Two",
-    role: "CTO & Co-Founder",
-    bio: "Brief biography goes here. Highlight technical background, signal processing experience, or relevant domain knowledge.",
-    linkedin: "https://linkedin.com/in/placeholder",
+    image: "/Usama.jpg",
+    name: "Usama Mir",
+    role: "CFO & CTO",
   },
   {
-    image: "/founder-3.svg",
-    name: "Founder Name Three",
-    role: "COO & Co-Founder",
-    bio: "Brief biography goes here. Cover operations expertise, shipping industry experience, or commercial background.",
-    linkedin: "https://linkedin.com/in/placeholder",
+    image: "/Samer.png",
+    name: "Samer Asad",
+    role: "COO",
   },
 ];
 
@@ -53,7 +37,7 @@ export default function TeamPage() {
           <h1 className="text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
             THE PEOPLE BEHIND
             <br />
-            VERIDIANNAV.
+            MIRAAS SPACE.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400">
             We&apos;re a team of maritime technologists, signal processing
@@ -90,27 +74,6 @@ export default function TeamPage() {
                   <p className="mt-1 text-sm font-medium text-cyan-400">
                     {founder.role}
                   </p>
-                  <p className="mt-3 text-sm leading-relaxed text-gray-400">
-                    {founder.bio}
-                  </p>
-
-                  {founder.linkedin && (
-                    <a
-                      href={founder.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-4 inline-flex items-center gap-1.5 text-sm text-gray-500 transition-colors hover:text-cyan-400"
-                    >
-                      <svg
-                        className="h-4 w-4"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                      </svg>
-                      LinkedIn
-                    </a>
-                  )}
                 </div>
               </div>
             ))}

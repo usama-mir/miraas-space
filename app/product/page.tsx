@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Product – VeridianNav",
+  title: "Product – MIRAAS Space",
   description:
     "An independent integrity layer on top of what you already have. Software-only GNSS position validation.",
 };
@@ -79,7 +78,7 @@ export default function ProductPage() {
             ON TOP OF WHAT YOU ALREADY HAVE.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-gray-400">
-            VeridianNav is a software-only platform. It integrates with existing
+            MIRAAS Space is a software-only platform. It integrates with existing
             vessel infrastructure, fuses independent data sources, and produces a
             continuously updated trust score with supporting evidence and alerts.
           </p>
@@ -116,7 +115,7 @@ export default function ProductPage() {
               <div className="flex items-center justify-center">
                 <div className="rounded-xl border border-cyan-400/30 bg-navy-800/80 px-8 py-6 text-center">
                   <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
-                    VeridianNav Engine
+                    MIRAAS Space Engine
                   </p>
                   <p className="mt-2 text-sm text-gray-400">
                     Cross-validation
@@ -188,7 +187,6 @@ export default function ProductPage() {
 
       {/* ─── CTA ─── */}
       <section
-        id="pilot"
         className="bg-navy-950 px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8"
       >
         <div className="mx-auto max-w-2xl">
@@ -198,21 +196,17 @@ export default function ProductPage() {
             YOU CAN TRUST?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-gray-400">
-            We&apos;re running pilots with maritime operators now. Pilots take
-            two to four weeks, use your existing data, and are scoped around your
-            operational context.
+            We&apos;re working with maritime operators to validate position
+            integrity in real operational environments. Reach out to learn more.
           </p>
           <div className="mt-10">
-            <Link
-              href="/product#pilot"
+            <a
+              href="mailto:info@miraastech.com"
               className="inline-block rounded-full bg-cyan-400 px-10 py-4 text-base font-semibold text-navy-950 transition-colors hover:bg-cyan-300"
             >
-              Request a Pilot
-            </Link>
+              info@miraastech.com
+            </a>
           </div>
-          <p className="mt-4 font-mono text-xs tracking-wider text-gray-600">
-            No hardware. No long procurement. Live within two weeks.
-          </p>
         </div>
       </section>
     </main>

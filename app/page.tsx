@@ -27,18 +27,18 @@ export default function Home() {
               <p className="mt-6 max-w-lg text-base leading-relaxed text-gray-400 sm:text-lg">
                 GNSS jamming and spoofing can make a vessel&apos;s positioning
                 data unreliable — while onboard instruments continue to show a
-                normal readout. VeridianNav continuously validates position data
+                normal readout. MIRAAS Space continuously validates position data
                 against independent sources so your operators always know whether
                 to act on what the chart shows.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <Link
-                  href="/product#pilot"
+                <a
+                  href="mailto:info@miraastech.com"
                   className="rounded-full bg-cyan-400 px-7 py-3 text-sm font-semibold text-navy-950 transition-colors hover:bg-cyan-300"
                 >
-                  Request a Pilot
-                </Link>
+                  Get in Touch
+                </a>
                 <Link
                   href="/product"
                   className="group flex items-center gap-2 rounded-full border border-navy-600 px-7 py-3 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-400 hover:text-white"

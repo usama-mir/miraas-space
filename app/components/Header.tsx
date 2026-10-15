@@ -35,7 +35,7 @@ export default function Header() {
             </svg>
           </div>
           <span className="text-lg font-bold tracking-wide text-white">
-            VERIDIAN<span className="text-cyan-400">NAV</span>
+            MIRAAS<span className="text-cyan-400"> Space</span>
           </span>
         </Link>
 
@@ -56,12 +56,12 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <Link
-            href="/product#pilot"
+          <a
+            href="mailto:info@miraastech.com"
             className="rounded-full border border-cyan-400 px-5 py-2 text-sm font-medium text-cyan-400 transition-colors hover:bg-cyan-400 hover:text-navy-950"
           >
-            Request Pilot
-          </Link>
+            info@miraastech.com
+          </a>
         </div>
 
         <button
@@ -111,13 +111,13 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/product#pilot"
+            <a
+              href="mailto:info@miraastech.com"
               onClick={() => setMenuOpen(false)}
               className="mt-2 rounded-full border border-cyan-400 px-5 py-2 text-center text-sm font-medium text-cyan-400 transition-colors hover:bg-cyan-400 hover:text-navy-950"
             >
-              Request Pilot
-            </Link>
+              info@miraastech.com
+            </a>
           </nav>
         </div>
       )}
